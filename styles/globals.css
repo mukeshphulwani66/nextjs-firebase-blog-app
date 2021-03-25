@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=password]:focus {
+  border-bottom: 2px solid orange !important;
+  box-shadow: none !important;
+}

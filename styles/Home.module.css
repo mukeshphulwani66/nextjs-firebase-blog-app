@@ -6,7 +6,9 @@
   justify-content: center;
   align-items: center;
 }
-
+.ram{
+  background: red;
+}
 .main {
   padding: 5rem 0;
   flex: 1;
